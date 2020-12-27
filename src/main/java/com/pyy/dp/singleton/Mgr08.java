@@ -5,7 +5,7 @@ package com.pyy.dp.singleton;
  * @date 2020/12/26 18:27
  *
  * 枚举单例（完美中的完美，Effective Java推荐）
- *  不仅可以解决线程同步的问题，还可以防止反序列化
+ *  不仅可以解决线程同步的问题，还可以防止反序列化（因为枚举没有构造方法，反射 ClassLoader类加载器加载的时候也不能new对象）
  */
 public enum Mgr08 {
 

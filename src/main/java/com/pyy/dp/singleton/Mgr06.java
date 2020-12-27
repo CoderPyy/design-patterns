@@ -7,7 +7,7 @@ package com.pyy.dp.singleton;
  * 可以通过synchronize解决，但也带来效率下降
  */
 public class Mgr06 {
-    private static volatile Mgr06 INSTANCE;
+    private static volatile Mgr06 INSTANCE;// JIT  使用volatile能在JIT时防止指令重排
 
     private Mgr06(){}
 

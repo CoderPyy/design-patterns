@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb11c099-8236-4f27-b44b-f5e41af5dd19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/design-patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/singleton/Mgr07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/singleton/Mgr08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/strategy/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/strategy/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/strategy/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/strategy/Sorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/strategy/comparator/CatHeightComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/strategy/comparator/CatWeightComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/strategy/comparator/Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/strategy/comparator/DogComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pyy/dp/singleton/Mgr06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/singleton/Mgr06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pyy/dp/singleton/Mgr08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pyy/dp/singleton/Mgr08.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +28,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Enum" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,7 +57,6 @@
   </component>
   <component name="ProjectId" id="1mBWMAxK05IH0177GR0ceNtwHRD" />
   <component name="ProjectViewState">
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,7 +80,25 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.Mgr08">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pyy.dp.strategy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pyy.dp.strategy.Main" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pyy.dp.strategy.comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Mgr07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pyy.dp.singleton.Mgr07" />
       <module name="design-patterns" />
@@ -103,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Mgr08" />
         <item itemvalue="Application.Mgr07" />
       </list>
@@ -118,8 +143,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608797212369</updated>
-      <workItem from="1608967421426" duration="10002000" />
+      <workItem from="1608967421426" duration="26406000" />
     </task>
+    <task id="LOCAL-00001" summary="add 两种完美的单例设计模式写法">
+      <created>1608979282621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608979282621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,27 +169,51 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add 两种完美的单例设计模式写法" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 两种完美的单例设计模式写法" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="294" key="GridCell.Tab.0.bottom" timestamp="1608978809688">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1609061122144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="294" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608978809688" />
-    <state width="1493" height="294" key="GridCell.Tab.0.center" timestamp="1608978809688">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1609061122144" />
+    <state x="372" y="5" key="CommitChangelistDialog2" timestamp="1608979280692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="294" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608978809688" />
-    <state width="1493" height="294" key="GridCell.Tab.0.left" timestamp="1608978809688">
+    <state x="372" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1608979280692" />
+    <state x="147" y="64" width="1228" height="688" key="DiffContextDialog" timestamp="1608992541941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="294" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608978809688" />
-    <state width="1493" height="294" key="GridCell.Tab.0.right" timestamp="1608978809688">
+    <state x="147" y="64" width="1228" height="688" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1608992541941" />
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1609062036015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="294" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608978809688" />
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609062036015" />
+    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1609062036015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609062036015" />
+    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1609062036015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609062036015" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1609062036015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609062036015" />
     <state x="164" y="42" width="996" height="714" key="SettingsEditor" timestamp="1608972305569">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="164" y="42" width="996" height="714" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608972305569" />
+    <state x="361" y="133" key="Vcs.Push.Dialog.v2" timestamp="1608979284808">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="133" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608979284808" />
+    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1609046101839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609046101839" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1608978325437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
