@@ -1,9 +1,5 @@
 package com.pyy.dp.strategy;
 
-import com.pyy.dp.strategy.comparator.CatHeightComparator;
-import com.pyy.dp.strategy.comparator.CatWeightComparator;
-import com.pyy.dp.strategy.comparator.DogComparator;
-
 import java.util.Arrays;
 
 /**

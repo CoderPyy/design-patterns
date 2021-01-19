@@ -1,4 +1,4 @@
-package com.pyy.dp.abstractfactory.magic;
+package com.pyy.dp.abstractfactory.magic.abstract_;
 
 import com.pyy.dp.abstractfactory.abstract_.AbstractFactory;
 import com.pyy.dp.abstractfactory.abstract_.Food;
