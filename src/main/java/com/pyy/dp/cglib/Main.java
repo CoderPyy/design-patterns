@@ -18,7 +18,7 @@ public class Main {
 
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(Tank.class);
-        enhancer.setCallback(new TimeMethodInterceptor());
+        enhancer.setCallback(new TimeMethodInterceptor());// 相当于InvocationHandler接口
         Tank tank = (Tank)enhancer.create();
         tank.move();
     }
