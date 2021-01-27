@@ -1,8 +1,6 @@
 package com.pyy.dp.Iterator.v5;
 
-import java.util.LinkedList;
-
-public class LinkedList_ implements Collection_ {
+public class LinkedList_ implements com.pyy.dp.Iterator.v5.Collection_ {
 
     Node head = null;
     Node tail = null;
